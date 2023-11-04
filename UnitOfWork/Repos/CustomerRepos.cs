@@ -10,7 +10,7 @@ namespace UnitOfWork.Repos
             try
             {
                 await DbSet.AddAsync(entity);
-                return obj;
+                return entity;
             }
             catch (Exception ex)
             {
