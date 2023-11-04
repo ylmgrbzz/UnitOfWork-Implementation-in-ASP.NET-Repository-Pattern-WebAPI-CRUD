@@ -1,4 +1,6 @@
 using Microsoft.EntityFrameworkCore;
+using UnitOfWork.Controllers;
+using UnitOfWork.UnitOfWorkRepos;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,7 +12,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<LearnDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("dbconnection")));
-builder.Services.AddScoped<IUnitofWork, UnitofWorkRepo>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWorkRepo>();
 
 var app = builder.Build();
 

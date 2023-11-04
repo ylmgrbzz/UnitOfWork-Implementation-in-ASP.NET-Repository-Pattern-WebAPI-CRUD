@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Unitofwork.Models;
+using UnitOfWork.GenericRepos;
 using UnitOfWork.Interface;
 
 namespace UnitOfWork.CustomerRepos
@@ -38,7 +39,7 @@ namespace UnitOfWork.CustomerRepos
             return await base.GetAllAsync();
         }
 
-        public override async Task<TblCustomer> GetByIdAsync(object id)
+        public override async Task<TblCustomer> GetByIdAsync(int id)
         {
             return await DbSet.FirstOrDefaultAsync(item => item.Id == id);
         }
