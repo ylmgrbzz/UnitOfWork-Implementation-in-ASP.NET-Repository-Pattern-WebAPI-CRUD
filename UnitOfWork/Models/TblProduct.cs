@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Unitofwork.Modelss;
+﻿namespace Unitofwork.Models;
 
 public partial class TblProduct
 {

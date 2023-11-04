@@ -1,6 +1,8 @@
-﻿namespace UnitOfWork.Interface
+﻿using Unitofwork.Models;
+
+namespace UnitOfWork.Interface
 {
-    public interface IGenericRepository
+    public interface ICustomerrepo : IGenericRepository<TblCustomer>
     {
     }
 }

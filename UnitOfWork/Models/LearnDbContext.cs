@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Unitofwork.Modelss;
+namespace Unitofwork.Models;
 
 public partial class LearnDbContext : DbContext
 {

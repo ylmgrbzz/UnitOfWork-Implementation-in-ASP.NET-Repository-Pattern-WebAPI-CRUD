@@ -1,4 +1,4 @@
-﻿namespace Unitofwork.Modelss;
+﻿namespace Unitofwork.Models;
 
 public partial class TblCustomer
 {
