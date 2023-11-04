@@ -2,7 +2,7 @@
 using Unitofwork.Models;
 using UnitOfWork.Interface;
 
-namespace UnitOfWork.Repos
+namespace UnitOfWork.GenericRepos
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : class
     {

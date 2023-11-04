@@ -1,7 +1,8 @@
-﻿using Unitofwork.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using Unitofwork.Models;
 using UnitOfWork.Interface;
 
-namespace UnitOfWork.Repos
+namespace UnitOfWork.CustomerRepos
 {
     public class CustomerRepos : GenericRepository<TblCustomer>, ICustomerRepo
     {
