@@ -22,7 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Repos\" />
     <Folder Include="Models\" />
   </ItemGroup>
 

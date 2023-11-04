@@ -2,7 +2,7 @@
 
 namespace UnitOfWork.Interface
 {
-    public interface ICustomerrepo : IGenericRepository<TblCustomer>
+    public interface ICustomerRepo : IGenericRepository<TblCustomer>
     {
     }
 }
