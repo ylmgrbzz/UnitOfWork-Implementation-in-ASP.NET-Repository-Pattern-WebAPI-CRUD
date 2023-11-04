@@ -1,6 +1,8 @@
-﻿namespace UnitOfWork.Repos
+﻿using static UnitOfWork.Controllers.IUnitOfWork;
+
+namespace UnitOfWork.Repos
 {
-    public class UnitOfWorkRepo
+    public class UnitOfWorkRepo : IUnitofWork
     {
     }
 }
